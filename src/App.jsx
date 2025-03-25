@@ -1,7 +1,10 @@
 import './App.css'
 import Header from './component/Header'
 import DesignSection from './pages/DesignSection'
+import FocusSection from './pages/FocusSection'
 import HeroSection from './pages/HeroSection'
+import ModernPage1 from './pages/ModernPage1'
+import ModernPage2 from './pages/ModernPage2'
 
 function App() {
   
@@ -11,6 +14,9 @@ function App() {
       <Header/>
       <HeroSection/>
       <DesignSection/>
+      <FocusSection/>
+      <ModernPage1/>
+      <ModernPage2/>
     </>
   )
 }
