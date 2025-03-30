@@ -77,6 +77,11 @@ const HeroSection = () => {
                 ></path>
               </g>
             </svg>
+            <img 
+          src="images/icon1.avif" 
+          alt="Inner Overlay" 
+          className="absolute top-150 right-13 w-25 rounded-lg shadow-lg"
+        />
           </div>
 
           <motion.div

@@ -1,15 +1,15 @@
 import React from 'react';
-import backgroundVideo from '../assets/videos/file.mp4'; // Video from assets
+import focusBackgroundVideo from '../assets/videos/file.mp4';
 
 const FocusSection = () => {
   return (
     <div className="relative h-screen px-6 py-4 border-4 overflow-hidden">
       
-      {/* Background Video (Scoped to this Section) */}
-      <div className="absolute inset-0 -z-10">
+      {/* Background Video (Fixed for Scrolling Effect) */}
+      <div className="fixed inset-0 -z-10">
         <video 
           className="w-full h-full object-cover" 
-          src={backgroundVideo} 
+          src={focusBackgroundVideo} 
           autoPlay 
           loop 
           muted 

@@ -1,6 +1,5 @@
 import './App.css'
 import Header from './component/Header'
-import AboutUs from './pages/FutureSection'
 import DesignSection from './pages/DesignSection'
 import FocusSection from './pages/FocusSection'
 import HeroSection from './pages/HeroSection'
